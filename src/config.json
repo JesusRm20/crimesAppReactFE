@@ -1,0 +1,11 @@
+{
+    "jwtPrivateKey": "secrete",
+    "pathLogin": "http://localhost/login",
+    "pathLoad": "http://localhost/load",
+    "pathSignUp": "http://localhost/signup",
+    "pathCrimeDetails": "http://localhost/edit/",
+    "pathCrimes":"http://localhost/home",
+    "updateCrime":"http://localhost/updateCrime",
+    "deleteCrime":"http://localhost/delete/",
+    "requiresAuth": false
+}
