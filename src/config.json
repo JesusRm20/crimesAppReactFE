@@ -1,11 +1,11 @@
 {
     "jwtPrivateKey": "secrete",
-    "pathLogin": "http://ec2-3-85-80-146.compute-1.amazonaws.com/:8080/login",
-    "pathLoad": "http://ec2-3-85-80-146.compute-1.amazonaws.com/:8080/load",
-    "pathSignUp": "http://ec2-3-85-80-146.compute-1.amazonaws.com/:8080/signup",
-    "pathCrimeDetails": "http://ec2-3-85-80-146.compute-1.amazonaws.com/:8080/edit/",
-    "pathCrimes":"http://ec2-3-85-80-146.compute-1.amazonaws.com/:8080/home",
-    "updateCrime":"http://ec2-3-85-80-146.compute-1.amazonaws.com/:8080/updateCrime",
-    "deleteCrime":"http://ec2-3-85-80-146.compute-1.amazonaws.com/:8080/delete/",
+    "pathLogin": "http://ec2-52-90-249-81.compute-1.amazonaws.com/:8080/login",
+    "pathLoad": "http://ec2-52-90-249-81.compute-1.amazonaws.com/:8080/load",
+    "pathSignUp": "http://ec2-52-90-249-81.compute-1.amazonaws.com/:8080/signup",
+    "pathCrimeDetails": "http://ec2-52-90-249-81.compute-1.amazonaws.com/:8080/edit/",
+    "pathCrimes":"http://ec2-52-90-249-81.compute-1.amazonaws.com/:8080/home",
+    "updateCrime":"http://ec2-52-90-249-81.compute-1.amazonaws.com/:8080/updateCrime",
+    "deleteCrime":"http://ec2-52-90-249-81.compute-1.amazonaws.com/:8080/delete/",
     "requiresAuth": false
 }
