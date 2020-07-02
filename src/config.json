@@ -1,11 +1,11 @@
 {
     "jwtPrivateKey": "secrete",
-    "pathLogin": "http://localhost/login",
-    "pathLoad": "http://localhost/load",
-    "pathSignUp": "http://localhost/signup",
-    "pathCrimeDetails": "http://localhost/edit/",
-    "pathCrimes":"http://localhost/home",
-    "updateCrime":"http://localhost/updateCrime",
-    "deleteCrime":"http://localhost/delete/",
+    "pathLogin": "http://localhost:8080/login",
+    "pathLoad": "http://localhost:8080/load",
+    "pathSignUp": "http://localhost:8080/signup",
+    "pathCrimeDetails": "http://localhost:8080/edit/",
+    "pathCrimes":"http://localhost:8080/home",
+    "updateCrime":"http://localhost:8080/updateCrime",
+    "deleteCrime":"http://localhost:8080/delete/",
     "requiresAuth": false
 }
