@@ -37,8 +37,8 @@ class Signup extends Component {
                                         </div>
                                         <div className="form-check">
                                         <label className="form-check-label">
-                                        <input type="checkbox" className="form-check-input" />
-                                        By Clicking register you're agree to our policy & terms
+                                        <input type="checkbox" className="form-check-input" id="chckbx"/>
+                                            By Clicking register you're agree to our policy & terms
                                         </label>
                                         </div>
                                         <div>

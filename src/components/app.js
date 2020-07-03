@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import NavBar from './navbar';
 import Crime from './crime/crimesComponent';
 import Login from './account/login';
@@ -34,6 +36,12 @@ class App extends Component {
         if(resp){
             const session = true;
             this.setState({session}); 
+        }else{
+            toast.error("Wrong Username/Password!");
+            setTimeout(function(){
+                document.getElementById('password').value = "";
+            }, 3000)
+            
         }
     }
     handleLogOut = () => {
@@ -62,6 +70,8 @@ class App extends Component {
         };
 
         const signUp = userService.signUp(usr);
+        window.location = "/login";
+
         return signUp;
     }
 
@@ -72,6 +82,7 @@ class App extends Component {
                 <Switch>
                     <Route path="/login">
                         { this.state.session ? <Redirect to='/' /> : <Redirect to='/login' /> }
+                        <ToastContainer />
                         <Login onSubmit={this.handleSubmitLogin} />
                     </Route>
                     <Route path="/signup">

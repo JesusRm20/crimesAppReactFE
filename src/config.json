@@ -1,11 +1,11 @@
 {
     "jwtPrivateKey": "secrete",
-    "pathLogin": "http://ec2-54-196-68-217.compute-1.amazonaws.com:8080/login",
-    "pathLoad": "http://ec2-54-196-68-217.compute-1.amazonaws.com:8080/load",
-    "pathSignUp": "http://ec2-54-196-68-217.compute-1.amazonaws.com:8080/signup",
-    "pathCrimeDetails": "http://ec2-54-196-68-217.compute-1.amazonaws.com:8080/edit/",
-    "pathCrimes":"http://ec2-54-196-68-217.compute-1.amazonaws.com:8080/home",
-    "updateCrime":"http://ec2-54-196-68-217.compute-1.amazonaws.com:8080/updateCrime",
-    "deleteCrime":"http://ec2-54-196-68-217.compute-1.amazonaws.com:8080/delete/",
+    "pathLogin": "http://3.85.194.193//login",
+    "pathLoad": "http://3.85.194.193//load",
+    "pathSignUp": "http://3.85.194.193//signup",
+    "pathCrimeDetails": "http://3.85.194.193//edit/",
+    "pathCrimes":"http://3.85.194.193//home",
+    "updateCrime":"http://3.85.194.193//updateCrime",
+    "deleteCrime":"http://3.85.194.193//delete/",
     "requiresAuth": false
 }
