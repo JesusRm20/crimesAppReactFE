@@ -8,7 +8,7 @@ class Signup extends Component {
                 <div className="container">
                     <h2 className="text-center" id="title">Sign Up to Gain Free Access</h2>
                         <p className="text-center">
-                        <small id="passwordHelpInline" className="text-muted"> Developer: follow me on facebook <a href="https://www.facebook.com/JheanYu"> John niro yumang</a> inspired from <a href="https://p.w3layouts.com/">https://p.w3layouts.com/</a>.</small>
+                        <small id="passwordHelpInline" className="text-muted"> Developer: follow me on facebook <a href="https://www.facebook.com/chuy.sicairos1/"> Jesus Sicairos</a> inspired from <a href="https://p.w3layouts.com/">https://p.w3layouts.com/</a>.</small>
                     </p>
                     <div className="row" className="custom-centered">
                         <div className="col align-self-center">
@@ -53,7 +53,7 @@ class Signup extends Component {
                     </div>
                 </div>
                 <p className="text-center">
-                    <small id="passwordHelpInline" className="text-muted"> Developer:<a href="http://www.psau.edu.ph/"> Pampanga state agricultural university ?</a> BS. Information and technology students @2017 Credits: <a href="https://v4-alpha.getbootstrap.com/">boostrap v4.</a></small>
+                    <small id="passwordHelpInline" className="text-muted"> Developer: Eldorado state Institute of Technology BS. Computer Systems Engineer @2019 Credits: <a href="https://v4-alpha.getbootstrap.com/">boostrap v4.</a></small>
                 </p>
             </div>
          );

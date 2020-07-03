@@ -53,8 +53,16 @@ class App extends Component {
     }
     handlesubmitLoad = e => {
         e.preventDefault();
-        const date = { 'date': document.getElementById('date').value};
-        crimeServices.loadCrimes(date);
+        try{
+            const date = { 'date': document.getElementById('date').value};
+            crimeServices.loadCrimes(date);
+            toast.success("Crimes loaded Successfully");
+            document.getElementById('date').value = "";
+        } catch(ex){
+            toast.error("Something went wrong, please try again.");
+            document.getElementById('date').value = "";
+        }
+
     }
     handlesubmitSignup = async e => {
         e.preventDefault();
@@ -68,7 +76,14 @@ class App extends Component {
         };
 
         const signUp = userService.signUp(usr);
-        window.location = "/login";
+        toast.success("Registration Successfully!");
+        document.getElementById('firstName').value = "";
+        document.getElementById('lastName').value = "";
+        document.getElementById('username').value = "";
+        document.getElementById('email').value = "";
+        document.getElementById('password').value = "";
+        document.getElementById('passwordConfirm').value = "";
+        document.getElementById('chckbx').checked = false;
 
         return signUp;
     }
@@ -85,9 +100,11 @@ class App extends Component {
                     </Route>
                     <Route path="/signup">
                         { this.state.session ? <Redirect to='/' /> : <Redirect to='/signup' /> }
+                        <ToastContainer />
                         <Signup onSubmit={this.handlesubmitSignup} />
                     </Route>
                     <Route path="/loadCrimes">
+                        <ToastContainer />
                         <LoadCrimes onSubmit={ this.handlesubmitLoad }/>
                     </Route>
                     <Route path='/crimeDetails/:id' component={CrimeDetails } />
