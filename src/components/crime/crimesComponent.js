@@ -14,7 +14,7 @@ class Crimes extends Component {
         elements: [],
         selectedCategory:'allCategories',
         currentPage: 1,
-        pageSize: 5,
+        pageSize: 15,
         sortColumn: {path: '', order:''}
     }
     async componentDidMount() {
