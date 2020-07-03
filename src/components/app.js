@@ -38,9 +38,7 @@ class App extends Component {
             this.setState({session}); 
         }else{
             toast.error("Wrong Username/Password!");
-            setTimeout(function(){
-                document.getElementById('password').value = "";
-            }, 3000)
+            document.getElementById('password').value = "";
             
         }
     }
