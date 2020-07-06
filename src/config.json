@@ -1,11 +1,11 @@
 {
     "jwtPrivateKey": "secrete",
-    "pathLogin": "http://3.85.194.193/login",
-    "pathLoad": "http://3.85.194.193/load",
-    "pathSignUp": "http://3.85.194.193/signup",
-    "pathCrimeDetails": "http://3.85.194.193/edit/",
-    "pathCrimes":"http://3.85.194.193/home",
-    "updateCrime":"http://3.85.194.193/updateCrime",
-    "deleteCrime":"http://3.85.194.193/delete/",
+    "pathLogin": "http://52.202.195.198/login",
+    "pathLoad": "http://52.202.195.198/load",
+    "pathSignUp": "http://52.202.195.198/signup",
+    "pathCrimeDetails": "http://52.202.195.198/edit/",
+    "pathCrimes":"http://52.202.195.198/home",
+    "updateCrime":"http://52.202.195.198/updateCrime",
+    "deleteCrime":"http://52.202.195.198/delete/",
     "requiresAuth": false
 }
