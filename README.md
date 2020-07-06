@@ -2,6 +2,10 @@
 
 The project consists of a web app that uses the public available police API to retrieve info about crimes that happened in a specific date and in a specific location. This data is then save in a sqlite database instance and manipulated with the API built for this project.
 
+Deployed at:
+
+<a href="http://52.202.195.198:3000/login" >ReactApp</a>
+
 ## Functionality:
 
 The app consists of 5 different forms. Each of which is in charge of performing a specific task.
